@@ -1,0 +1,14 @@
+[package]
+name = "dev523"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6.20"
+mongodb = "2.7.1"
+serde = { version = "1.0.193", features = ["derive"] }
+shuttle-axum = "0.34.0"
+shuttle-runtime = "0.34.0"
+shuttle-secrets = "0.34.1"
+tokio = "1.28.2"
+tracing = "0.1.40"
