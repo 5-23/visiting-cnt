@@ -20,6 +20,7 @@ async fn main(
     let router = Router::new()
         .route("/", get(hello_world))
         .route("/count", get(counter::count))
+        .route("/gen_image", get(counter::gen_image))
     ;
     Ok(router.into())
 }
